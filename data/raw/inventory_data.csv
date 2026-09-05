@@ -1,0 +1,21 @@
+sku_id,category,unit_cost,selling_price,current_stock,reorder_point,lead_time_days
+SKU_001,Groceries,89.11,173.34,225,59,3
+SKU_002,Groceries,93.67,139.52,92,48,10
+SKU_003,Apparel,76.77,144.31,39,57,13
+SKU_004,Apparel,50.71,93.58,178,31,14
+SKU_005,Home & Kitchen,144.78,283.08,13,91,9
+SKU_006,Home & Kitchen,34.27,61.62,116,37,13
+SKU_007,Groceries,63.35,111.77,59,50,13
+SKU_008,Apparel,77.29,104.6,103,100,13
+SKU_009,Electronics,13.65,22.2,97,26,5
+SKU_010,Apparel,54.66,105.41,220,66,9
+SKU_011,Home & Kitchen,41.13,78.19,257,73,13
+SKU_012,Home & Kitchen,138.43,215.85,73,53,5
+SKU_013,Groceries,63.38,95.43,292,53,8
+SKU_014,Groceries,114.03,157.27,120,69,7
+SKU_015,Home & Kitchen,28.9,40.43,190,49,3
+SKU_016,Home & Kitchen,66.47,120.94,211,98,3
+SKU_017,Electronics,97.91,176.78,209,72,3
+SKU_018,Groceries,129.16,218.5,226,56,14
+SKU_019,Apparel,107.94,154.53,202,92,8
+SKU_020,Apparel,91.87,157.08,203,69,8
