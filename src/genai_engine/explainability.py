@@ -3,10 +3,22 @@ import chromadb
 import pandas as pd
 from dotenv import load_dotenv
 
-# Load environment variables (.env)
+# Project paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
-load_dotenv(os.path.join(PROJECT_ROOT, ".env"))
+
+# Load environment variables from local .env file
+ENV_PATH = r"C:/Users/prith/OneDrive/Desktop/Hexaware/Gen AI - project - materials/.env"
+load_dotenv(ENV_PATH)
+
+# Optional: verify .env was found and loaded
+print("========== ENV CHECK ==========")
+print("ENV PATH:", ENV_PATH)
+print("ENV FILE EXISTS:", os.path.exists(ENV_PATH))
+print("AZURE API KEY LOADED:", bool(os.getenv("AZURE_OPENAI_API_KEY")))
+print("AZURE ENDPOINT LOADED:", bool(os.getenv("AZURE_OPENAI_ENDPOINT")))
+print("AZURE DEPLOYMENT LOADED:", bool(os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")))
+print("===============================")
 
 VECTOR_DB_DIR = os.path.join(PROJECT_ROOT, "data", "chroma_db")
 CURATED_FILE = os.path.join(PROJECT_ROOT, "data", "curated", "demand_features.csv")
